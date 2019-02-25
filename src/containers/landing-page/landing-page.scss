@@ -1,0 +1,21 @@
+@import "../../../style";
+
+.landing-page {
+  align-items: center;
+  justify-content: center;
+  background: $backgroundColor;
+}
+
+.centered-form {
+  background: rgba(250, 250, 250, .9);
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  width: 450px;
+  text-align: center;
+}
+
+.btn-primary {
+  background: #265f82;
+}

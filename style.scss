@@ -1,0 +1,26 @@
+$backgroundColor: linear-gradient(325deg, rgba(39, 107, 130, 1) 0, rgba(49, 84, 129, 1) 100%);
+
+body {
+  margin: 0;
+  min-width: 740px;
+  overflow: hidden;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.main-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}

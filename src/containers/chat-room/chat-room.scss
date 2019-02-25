@@ -1,0 +1,106 @@
+@import "../../../style";
+
+.disconnect-btn {
+  position: absolute;
+  float: right;
+  right: 0;
+  margin: 20px 40px;
+  height: 40px;
+  font-size: 16px;
+  padding: 5px;
+  z-index: 1;
+}
+
+.chat-sidebar {
+  overflow-y: scroll;
+  flex: 1 1 20%;
+  background: $backgroundColor;
+}
+
+.title {
+  color: #e6eaee;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 10px 20px;
+}
+
+.user {
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  margin: 10px;
+  background: #e6eaee;
+  padding: 10px;
+}
+
+.chat-main {
+  flex: 1 1 80%;
+  display: flex;
+  flex-flow: column;
+}
+
+.chat-window {
+  flex: 1 1 100%;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+  max-height: 100vh;
+}
+
+.chat-messages {
+  overflow-y: scroll;
+}
+
+.message {
+  padding: 10px;
+
+  &-title {
+    display: flex;
+    margin-bottom: 5px;
+
+    span {
+      color: #999;
+    }
+  }
+
+  &-sender {
+    margin-right: 10px;
+    font-size: 1em;
+    font-weight: 700;
+  }
+}
+
+.chat-footer {
+  background: #e6eaee;
+  padding: 10px;
+  display: flex;
+  flex-shrink: 0;
+}
+
+.message-form {
+  flex-grow: 1;
+  display: flex;
+}
+
+input {
+  border: none;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+button {
+  background: #265f82;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  padding: 10px;
+}
+
+.chat-popup {
+  position: absolute;
+  opacity: 0.7;
+  font-size: 0.7em;
+  right: 0;
+  bottom: 0;
+  padding: 0 20px 10px;
+}
